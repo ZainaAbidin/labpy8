@@ -21,10 +21,10 @@ Penjelasan! Atribut: mahasiswa: Dictionary untuk menyimpan data mahasiswa (nama 
 
 1. Definisi Kelas Mahasiswa
 
-Kelas Mahasiswa berfungsi untuk menyimpan dan mengelola daftar mahasiswa. Kelas ini memiliki satu atribut dan beberapa metode:
+  Kelas Mahasiswa berfungsi untuk menyimpan dan mengelola daftar mahasiswa. Kelas ini memiliki satu atribut dan beberapa metode:
 
 Atribut:
-daftar_mahasiswa: Sebuah list kosong yang berfungsi untuk menyimpan data mahasiswa. Setiap mahasiswa disimpan dalam bentuk dictionary dengan dua kunci: 'nama' untuk menyimpan nama mahasiswa dan 'nilai' untuk menyimpan nilai mahasiswa.
+  daftar_mahasiswa: Sebuah list kosong yang berfungsi untuk menyimpan data mahasiswa. Setiap mahasiswa disimpan dalam bentuk dictionary dengan dua kunci: 'nama' untuk menyimpan nama mahasiswa dan 'nilai' untuk menyimpan nilai mahasiswa.
 
 Metode:
 __init__(): Ini adalah konstruktor kelas yang otomatis dipanggil saat objek kelas Mahasiswa dibuat. 
@@ -54,8 +54,13 @@ Interaksi Pengguna:
 
 Setiap kali pengguna memilih menu, program akan mengeksekusi metode yang sesuai dengan pilihan tersebut:
 Jika memilih 1, program akan meminta pengguna memasukkan nama dan nilai mahasiswa untuk ditambahkan.
+
 Jika memilih 2, program akan menampilkan daftar seluruh mahasiswa.
+
 Jika memilih 3, program akan meminta pengguna untuk memasukkan nama mahasiswa yang ingin dihapus.
+
 Jika memilih 4, program akan meminta nama mahasiswa yang ingin diubah nilainya dan nilai baru yang diinginkan.
+
 Jika memilih 5, program akan keluar dan menampilkan pesan "Keluar dari program."
+
 Looping: Program akan terus berjalan dalam loop hingga pengguna memilih opsi 5 untuk keluar. Setiap kali pengguna memasukkan pilihan, program akan memeriksa input tersebut dan mengeksekusi tindakan yang sesuai. Jika input tidak valid (misalnya angka selain 1-5), program akan menampilkan pesan bahwa pilihan tidak valid dan meminta pengguna untuk mencoba lagi.
