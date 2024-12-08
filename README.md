@@ -20,6 +20,7 @@ Penjelasan! Atribut: mahasiswa: Dictionary untuk menyimpan data mahasiswa (nama 
 # PENJELASAN CODE
 
 1. Definisi Kelas Mahasiswa
+
 Kelas Mahasiswa berfungsi untuk menyimpan dan mengelola daftar mahasiswa. Kelas ini memiliki satu atribut dan beberapa metode:
 
 Atribut:
