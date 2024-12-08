@@ -11,7 +11,7 @@ Penjelasan! Atribut: mahasiswa: Dictionary untuk menyimpan data mahasiswa (nama 
 5. ubah(nama, nilai_baru): Memperbarui nilai mahasiswa.
 
 
-# FLAWCHART
+# FLOWCHART
 
 ![Cuplikan layar 2024-12-08 151445](https://github.com/user-attachments/assets/e66b87b5-3089-4d04-82b9-82cef9dc70be)
 
