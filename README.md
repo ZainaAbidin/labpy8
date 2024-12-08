@@ -19,12 +19,12 @@ Penjelasan! Atribut: mahasiswa: Dictionary untuk menyimpan data mahasiswa (nama 
 
 # PENJELASAN CODE
 
-1. Definisi Kelas Mahasiswa
+# 1. Definisi Kelas Mahasiswa
 
   Kelas Mahasiswa berfungsi untuk menyimpan dan mengelola daftar mahasiswa. Kelas ini memiliki satu atribut dan beberapa metode:
 
 Atribut:
-  daftar_mahasiswa: Sebuah list kosong yang berfungsi untuk menyimpan data mahasiswa. Setiap mahasiswa disimpan dalam bentuk dictionary dengan dua kunci: 'nama' untuk menyimpan nama mahasiswa dan 'nilai' untuk menyimpan nilai mahasiswa.
+daftar_mahasiswa: Sebuah list kosong yang berfungsi untuk menyimpan data mahasiswa. Setiap mahasiswa disimpan dalam bentuk dictionary dengan dua kunci: 'nama' untuk menyimpan nama mahasiswa dan 'nilai' untuk menyimpan nilai mahasiswa.
 
 Metode:
 __init__(): Ini adalah konstruktor kelas yang otomatis dipanggil saat objek kelas Mahasiswa dibuat. 
@@ -42,7 +42,8 @@ ubah(nama, nilai_baru): Metode ini digunakan untuk mengubah nilai mahasiswa berd
 mencari mahasiswa dengan nama yang diberikan, dan jika ditemukan, nilai mahasiswa tersebut akan diperbarui 
 dengan nilai baru yang dimasukkan oleh pengguna. Jika nama tidak ditemukan, program akan memberi tahu bahwa data mahasiswa tersebut tidak ada.
 
-2. Bagian Utama Program (Program Loop)
+# 2. Bagian Utama Program (Program Loop)
+
 Setelah mendefinisikan kelas Mahasiswa, program memasuki bagian utama (loop) yang menyediakan antarmuka pengguna berbasis teks untuk berinteraksi dengan pengguna.
 Menu Pilihan: Program akan menampilkan menu dengan lima pilihan:
 Tambah Data Mahasiswa - Pengguna diminta memasukkan nama dan nilai mahasiswa untuk ditambahkan ke dalam daftar.
@@ -53,6 +54,7 @@ Keluar - Program akan berhenti dan keluar.
 Interaksi Pengguna:
 
 Setiap kali pengguna memilih menu, program akan mengeksekusi metode yang sesuai dengan pilihan tersebut:
+
 Jika memilih 1, program akan meminta pengguna memasukkan nama dan nilai mahasiswa untuk ditambahkan.
 
 Jika memilih 2, program akan menampilkan daftar seluruh mahasiswa.
